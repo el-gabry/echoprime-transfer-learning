@@ -1,0 +1,18 @@
+experiment:
+  name: frozen_echoprime_ef
+  seed: 42
+data:
+  root: data/EchoNet-Dynamic
+  target: EF
+model:
+  embedding_dim: 512
+  hidden_dim: 128
+  dropout: 0.10
+training:
+  batch_size: 64
+  epochs: 50
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  early_stopping_patience: 8
+output:
+  dir: outputs/frozen_echoprime_ef

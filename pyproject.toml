@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "echoprime-transfer-learning"
+version = "0.1.0"
+description = "Reproducible transfer-learning benchmark for echocardiographic function prediction."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Muhammed Abdelnaby Sadek Muhammed"}]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
