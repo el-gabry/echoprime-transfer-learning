@@ -16,3 +16,8 @@ outputs/
 .env
 .DS_Store
 Thumbs.db
+
+# Python build metadata
+*.egg-info/
+build/
+dist/
