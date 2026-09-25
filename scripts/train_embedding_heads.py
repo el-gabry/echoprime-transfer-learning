@@ -25,8 +25,8 @@ from echoprime_transfer.models import (
 )
 
 
-EMBEDDING_DIR = Path("outputs/mini_v1/embeddings")
-OUTPUT_DIR = Path("outputs/mini_v1/model_comparison")
+EMBEDDING_DIR = Path("outputs/scaled_v2/embeddings")
+OUTPUT_DIR = Path("outputs/scaled_v2/model_comparison")
 
 SEED = 42
 BATCH_SIZE = 32
